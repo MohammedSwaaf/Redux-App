@@ -5,7 +5,7 @@ const compineReducers = redux.combineReducers;
 const applyMiddleware = redux.applyMiddleware;
 const reduxLogger = require('redux-logger');
 const logger = reduxLogger.createLogger();
-// first Action
+// The actions
 const BUY_CAKE = 'buy cake',BUY_ICECREEM='buy iceCream';
 let buyCake = () => {
     return {

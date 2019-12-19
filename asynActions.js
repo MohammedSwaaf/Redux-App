@@ -3,7 +3,7 @@ const createStore = redux.createStore;
 const applyMiddleware = redux.applyMiddleware;
 const thunkMiddleware = require('redux-thunk').default;
 const axios = require('axios');
-// the state
+// the state of application
 const initialState = {
     loading: false,
     users: [],
